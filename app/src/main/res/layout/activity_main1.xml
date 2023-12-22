@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fce4ec"
+    tools:context=".MainActivity1">
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="ᵂʰᵃᵗ ᶤˢ ᵗʰᶤˢ ᴬᶰˢʷᵉʳ ?"
+        android:textColor="#BF2227"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="🎄⌇˗ˏˋ🧣🎅🏻´ˎ˗ *﹆"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ข้อใดกล่าวถูกต้องเกี่ยวกับ API ของ Andriod SDK"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="288dp"
+        android:backgroundTint="#e1bee7"
+        android:text="เมื่อมี Android เวอร์ชั่นใหม่ๆ ก็ควรอัปเดตระดับAPI และ Compile เป็นเวอร์ชั่นล่าสุด"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:iconTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="216dp"
+        android:backgroundTint="#C5D6BA"
+        android:text="ระดับ API ของ Target SDK และ Compile SOK ห้ามใช้เวอร์ชั่นเดียวกัน"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#f8bbd0"
+        android:text="ระดับ API ของ Maximum จะต้องน้อยหรือว่าเท่ากับ Target SDK เสมอ"
+        android:textColor="#040303"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#f4dccb"
+        android:text="ระดับ API ของ Maximum SDK ที่ Google แนะนำในเดือนสิงหาคม 2021 หรือ ios15"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="₂"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="319dp"
+        android:layout_height="430dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/android" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
